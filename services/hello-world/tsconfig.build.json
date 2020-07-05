@@ -1,0 +1,12 @@
+{
+  "extends": "@poweredlocal/ts-config/tsconfig.build.json",
+  "include": ["./**/*.ts"],
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "baseUrl": "src"
+  },
+  "exclude": [
+    "dist"
+  ]
+}

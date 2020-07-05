@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.build.json",
+  "compilerOptions": {
+    "composite": true
+  },
+  "references": [
+    {
+      "path": "../../libs/lib-a"
+    },
+    {
+      "path": "../../libs/lib-b"
+    }
+  ]
+}

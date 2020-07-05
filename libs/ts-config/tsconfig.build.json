@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2019"],
+    "module": "commonjs",
+    "removeComments": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "target": "ES2019",
+    "strict": true,
+    "rootDir": "src",
+    "outDir": "dist"
+  },
+  "include": ["./**/*.ts"],
+  "exclude": [
+    "node_modules/**/*",
+    ".vscode/**/*",
+    "dist"
+  ]
+}

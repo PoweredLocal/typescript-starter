@@ -1,0 +1,25 @@
+{
+  "name": "@poweredlocal/lib-a",
+  "version": "1.0.0",
+  "description": "Lib A",
+  "author": "Alex Shelkovskiy <alexshelkov@gmail.com>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "check": "tsc -p tsconfig.build.json --noEmit",
+    "build": "tsc -b tsconfig.build.json",
+    "build-dev": "tsc -b",
+    "build-dep": "lerna run build --stream --scope=@poweredlocal/lib-a --include-dependencies",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@poweredlocal/ts-config": "^1.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^3.2.4"
+  }
+}

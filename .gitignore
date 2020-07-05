@@ -1,0 +1,12 @@
+# Editors
+.idea
+.vscode
+
+# Package directories
+lerna-debug.log
+node_modules
+jspm_packages
+
+# Builded
+dist
+tsconfig.tsbuildinfo
