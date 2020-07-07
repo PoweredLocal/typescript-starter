@@ -49,7 +49,11 @@ module.exports = {
         'prettier'
       ],
       rules: {
-        'no-param-reassign': 'off'
+        'no-param-reassign': 'off',
+        '@typescript-eslint/no-unused-vars': [
+          'error',
+          { varsIgnorePattern: '^_', argsIgnorePattern: '^_' }
+        ]
       }
     }
   ]
